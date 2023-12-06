@@ -1,0 +1,48 @@
+.home {
+    height: 91vh;
+    width: 100%;
+    background: linear-gradient(#36494d74, #3b4c5183), url('https://media.istockphoto.com/id/1312307362/photo/culinary-border-of-rosemary-salt-pepper-and-oil.webp?b=1&s=170667a&w=0&k=20&c=RiSSyVsqwgaR9ddqdQZcm8FCdr4Mfrx0QppWdkdGeRg=');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homepage {
+    width: 1500px;
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mypage {
+    text-align: center;
+}
+
+.mypage h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.mypage p {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+
+.mypage button {
+    background-color: #41aac6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    border: none;
+}
+
+.mypage button:hover {
+    background-color: #338ba3;
+}

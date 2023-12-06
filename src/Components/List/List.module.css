@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(201, 218, 230);
+}
+
+table {
+    background-color: rgb(201, 218, 230);
+    margin-top: 20px;
+}
+
+table tr td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tr th {
+    border: 2px solid black;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.delete {
+    padding: 0px 13px;
+    background-color: rgb(228, 93, 93);
+    font-size: 35px;
+}
+
+.edit {
+    padding: 0px 13px;
+    background-color: rgb(177, 218, 135);
+    font-size: 35px;
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(209, 245, 255);
+}
+
+::placeholder {
+    color: rgb(195, 60, 60);
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: rgb(190, 66, 66);
+}

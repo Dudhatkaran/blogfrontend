@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Serif', Serif;
+    background: #f3f3f3;
+
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'IBM Plex Sans', Serif;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+.container h1 {
+    color: black;
+}
+
+a {
+    color: #005eeb;
+}
+
+a:hover {
+    color: #ffb200;
+}
+
+.teamWrapper {
+    padding-top: 50px;
+    background-color: rgb(209, 245, 255);
+    width: 100%;
+}
+
+.container {
+    --container: 1160px;
+    max-width: var(--container);
+    margin: auto;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: -150px;
+    margin-right: -70px;
+    column-gap: 0.5%;
+    margin-top: 105px;
+}
+
+.avatar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -80px;
+    text-align: center;
+}
+
+.teamcolinner {
+    position: relative;
+}
+
+.avatar>img {
+    width: 150px;
+    margin-left: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(170 170 173/ 1);
+    box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+}
+
+.teamcolinner {
+    position: relative;
+    border: 1px dashed #ddd;
+    min-height: 100px;
+    background: #fff;
+    z-index: 9;
+}
+
+.teamcol {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+
+.teamcol:hover {
+    transform: translateY(-30px);
+    box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+    transition: transform 1s ease-in-out;
+}
+
+.teamcol:before {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: -webkit-linear-gradient(#287372, #0d7e86);
+    border-top-right-radius: 10px;
+    transition: width 1.5s ease-in-out;
+}
+
+.teamcol:after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(#35f6e6, #10cfb9);
+    border-bottom-left-radius: 10px;
+    transition: width 1.5s ease-in-out;
+}
+
+.teamcol:hover::before,
+.teamcol:hover::after {
+    width: 100%;
+    transition: width 2s ease-in-out;
+}
+
+.member-name {
+    margin-top: 80px;
+}
+
+.member-info {
+    padding: 10px 20px;
+
+}
+
+.social-listing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-listing>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #f4f5f7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.colmun {
+    width: 100%;
+    margin-left: 15%;
+}
+
+.teamcolinner button {
+    margin-left: 50px;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: rgb(76, 203, 212);
+}
+
+.teamcolinner button:hover {
+    border-radius: 20px;
+    color: #1bf2e7;
+    border-color: #18a8bb;
+    font-size: 20px;
+    transform: skewX(5deg);
+    transform: rotate(-3deg);
+}
